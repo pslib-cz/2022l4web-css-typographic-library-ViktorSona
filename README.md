@@ -14,7 +14,7 @@ Link to **[demo](https://pslib-cz.github.io/2022l4web-css-typographic-library-Vi
 3. [Headings](#Headings)
 4. [Types of text](#Types-of-text)
 5. [Table](#Table)
-7. [Table](#Table)
+6. [Buttons](#Buttons)
 8. [Alerts](#Alerts)
 9. [Buttons](#Buttons)
 10. [Pictures](#Pictures)
@@ -68,6 +68,10 @@ The `<caption>` tag specifies the name of the table. We write everything that ma
             </tr>
         </tbody>
 ```
-
+## Buttons
+I have preset three types of buttons with hover effects that interact:
+- Use class `class="button--add"` for hoverable button button.
+- Use class `class="button--cancel"` for disable look  button.
+- Use class `class="button--continue"` for arrow-animated button.
 
 
