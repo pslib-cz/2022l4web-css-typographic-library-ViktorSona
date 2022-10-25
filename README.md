@@ -13,13 +13,11 @@ Link to **[demo](https://pslib-cz.github.io/2022l4web-css-typographic-library-Vi
 2. [Typography](#Typography)
 3. [Headings](#Headings)
 4. [Types of text](#Types-of-text)
-5. [Table](#Table)
+5. [Cards](#Cards)
 6. [Buttons](#Buttons)
 7. [Images](#Images)
-9. [Buttons](#Buttons)
-10. [Pictures](#Pictures)
-11. [Cards](#Cards)
-14. [End](#the-end)
+8. [Table](#Table)
+9. [End](#End)
 
 ## Implementation
 1. Copy CSS **[docs/typography](https://github.com/pslib-cz/2022l4web-css-typographic-library-ViktorSona/blob/master/docs/typography.css)**
@@ -44,46 +42,6 @@ You can use these tags to change the font:
 - `ins` for <ins>Inserted text</ins>
 - `sub` for <sub>Subscript text</sub>
 - `sup` for <sup>Superscript tex</sup>
-## Table
-The `<caption>` tag specifies the name of the table. We write everything that makes up the table into `<tbody>`. The `<tr>` tag defines a row in a table. In the `<tr>` tag, we write the `<th>` and `<td>` tags that make up the cells and write their contents into them. The `<th>` tag is for the cell heading. The `<td>` tag is for classic cells. The lines are alternately white and gray, the brackets are made in accordance with the design of the entire page. I hope you like it. :) 
-```html
-<table>
-    <caption>Caption of the table</caption>
-        <tbody>
-            <tr>
-                <th>Table Heading</th>
-                <th>Table Heading</th>
-                <th>Table Heading</th>
-            </tr>
-            <tr>
-                <td>Item</td>
-                <td>Item</td>
-                <td>Item</td>
-            </tr>
-            <tr>
-                <td>Item</td>
-                <td>Item</td>
-                <td>Item</td>
-            </tr>
-        </tbody>
-```
-## Buttons
-CSS buttons refer to styled HTML buttons that developers customize to match their website designs. You can manipulate the colors, text sizes, padding, and even change styling properties when buttons enter different states.
-
-I have preset three types of buttons with hover effects that interact:
-- Use class `class="button--add"` for hoverable button button.
-- Use class `class="button--cancel"` for disable look  button.
-- Use class `class="button--continue"` for arrow-animated button.
-## Images
-Use this HTML style to properly apply the CSS preset:
-```html
-<div class="container">
-    <img src="img/image.jpg" alt="image" class="image">
-    <div class="overlay">
-     <div class="text">image</div>
-    </div>
-</div>
-```
 ## Cards
 Card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
 
@@ -106,4 +64,44 @@ Use this HTML style to properly apply the CSS preset:
         </div>
     </div>
 </section>
+```
+## Buttons
+CSS buttons refer to styled HTML buttons that developers customize to match their website designs. You can manipulate the colors, text sizes, padding, and even change styling properties when buttons enter different states.
+
+I have preset three types of buttons with hover effects that interact:
+- Use class `class="button--add"` for hoverable button button.
+- Use class `class="button--cancel"` for disable look  button.
+- Use class `class="button--continue"` for arrow-animated button.
+## Images
+Use this HTML style to properly apply the CSS preset:
+```html
+<div class="container">
+    <img src="img/image.jpg" alt="image" class="image">
+    <div class="overlay">
+     <div class="text">image</div>
+    </div>
+</div>
+```
+## Table
+The `<caption>` tag specifies the name of the table. We write everything that makes up the table into `<tbody>`. The `<tr>` tag defines a row in a table. In the `<tr>` tag, we write the `<th>` and `<td>` tags that make up the cells and write their contents into them. The `<th>` tag is for the cell heading. The `<td>` tag is for classic cells. The lines are alternately white and gray, the brackets are made in accordance with the design of the entire page. I hope you like it. :) 
+```html
+<table>
+    <caption>Caption of the table</caption>
+        <tbody>
+            <tr>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+            </tr>
+            <tr>
+                <td>Item</td>
+                <td>Item</td>
+                <td>Item</td>
+            </tr>
+            <tr>
+                <td>Item</td>
+                <td>Item</td>
+                <td>Item</td>
+            </tr>
+        </tbody>
 ```
