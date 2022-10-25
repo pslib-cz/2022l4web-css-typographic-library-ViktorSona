@@ -11,7 +11,7 @@ Link to **[demo](https://pslib-cz.github.io/2022l4web-css-typographic-library-Vi
 ## Navigator
 1. [Implementation](#Implementation)
 2. [Typography](#Typography)
-4. [Types of text](#Types-of-text)
+3. [Headings](#Headings)
 5. [Quotes](#Quotes)
 6. [Lists](#Lists)
     1. [Unordered list](#Unordered-list)
@@ -25,14 +25,27 @@ Link to **[demo](https://pslib-cz.github.io/2022l4web-css-typographic-library-Vi
 14. [End](#the-end)
 
 ## Implementation
-1. Download maestro.css in **[docs/typography](https://github.com/pslib-cz/2022l4web-css-typographic-library-ViktorSona/blob/master/docs/typography.css)** folder
-2. Add file inside your project folder
-3. Link typography.css file to `<head>` in every HTML page using syntax:
-```html
-<link href="typography.css" rel="stylesheet">
-```
+1. Copy CSS **[docs/typography](https://github.com/pslib-cz/2022l4web-css-typographic-library-ViktorSona/blob/master/docs/typography.css)**
+2. Paste to your CSS file
 ## Typography
-The font used throughout the site is called Kanit.
+The font used throughout the web is called Kanit.
+## Headings
+You can use headings from `<h1>` to `<h5>`. Font sizes are: 
+* 60px for `<h1>`
+* 45px for `<h2>`
+* 40px for `<h3>`
+* 30px for `<h4>`
+* 28px for `<h5>`
+## Types of text
+-`strong` for **Important text**<
+-`i` for *Italic text*</i>
+-`em` <em>Emphasized text</em>
+<mark>Marked text</mark>
+<small>Smaller text</small>
+<del>Deleted text</del>
+<ins>Inserted text</ins>
+<sub>Subscript text</sub>
+<sup>Superscript tex</sup>
 
 
 
