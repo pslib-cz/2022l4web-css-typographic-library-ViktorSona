@@ -46,10 +46,10 @@ You can use these tags to change the font:
 - `sub` for <sub>Subscript text</sub>
 - `sup` for <sup>Superscript tex</sup>
 ## Table
-The <caption> tag specifies the name of the table. We write everything that makes up the table into <tbody>. The <tr> tag defines a row in a table. In the <tr> tag, we write the <th> and <td> tags that make up the cells and write their contents into them. The <th> tag is for the cell heading. The <td> tag is for classic cells.
+The `<caption>` tag specifies the name of the table. We write everything that makes up the table into `<tbody>`. The `<tr>` tag defines a row in a table. In the `<tr>` tag, we write the `<th>` and `<td>` tags that make up the cells and write their contents into them. The `<th>` tag is for the cell heading. The `<td>` tag is for classic cells. The lines are alternately white and gray, the brackets are made in accordance with the design of the entire page. I hope you like it. :) 
 ```html
 <table>
-    <caption>Premier League Top Scorers 2022/2023</caption>
+    <caption>Caption of the table</caption>
         <tbody>
             <tr>
                 <th>Table Heading</th>
