@@ -72,6 +72,8 @@ I have preset three types of buttons with hover effects that interact:
 - Use class `class="button--cancel"` for disable look  button.
 - Use class `class="button--continue"` for arrow-animated button.
 ## Images
+CSS Images is a module of CSS that defines what types of images can be used (the image type, containing URLs, gradients and other types of images), how to resize them and how they and other replaced content, interact with the different layout models.
+
 Use this HTML style to properly apply the CSS preset:
 ```html
 <div class="container">
