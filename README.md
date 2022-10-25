@@ -1,4 +1,4 @@
-# Typography CSS library
+# Typography.CSS library
 **Author:** *Viktor Šona*
 
 ## Description
