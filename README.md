@@ -12,7 +12,7 @@ Link to **[demo](https://pslib-cz.github.io/2022l4web-css-typographic-library-Vi
 1. [Implementation](#Implementation)
 2. [Typography](#Typography)
 3. [Headings](#Headings)
-5. [Quotes](#Quotes)
+4. [Types of text](#Types-of-text)
 6. [Lists](#Lists)
     1. [Unordered list](#Unordered-list)
     2. [Ordered list](#Ordered-list)
@@ -37,15 +37,15 @@ You can use headings from `<h1>` to `<h5>`. Font sizes are:
 * 30px for `<h4>`
 * 28px for `<h5>`
 ## Types of text
--`strong` for **Important text**<
--`i` for *Italic text*</i>
--`em` <em>Emphasized text</em>
-<mark>Marked text</mark>
-<small>Smaller text</small>
-<del>Deleted text</del>
-<ins>Inserted text</ins>
-<sub>Subscript text</sub>
-<sup>Superscript tex</sup>
+- `strong` for **Important text**<
+- `i` for *Italic text*</i>
+- `em` for <em>Emphasized text</em>
+- `mark` for <mark>Marked text</mark>
+- `small` for <small>Smaller text</small>
+- `del` for <del>Deleted text</del>
+- `ins` for <ins>Inserted text</ins>
+- `sub` for <sub>Subscript text</sub>
+- `sup` for <sup>Superscript tex</sup>
 
 
 
