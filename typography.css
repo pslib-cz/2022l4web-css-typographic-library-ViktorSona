@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+html {
+    font-size: 25px;
+}
+
+/* Headings */
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 28px;
+}
+
+/* Texts */
+p {
+    margin-left: 5rem;
+}
+
+b,
+strong
+.bold {
+    font-weight: 700;
+}
+
+a {
+    font-weight: 500;
+}
+
+mark {
+    background-color: lightgray;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+/* Lists */
+ul {
+    list-style: circle;
+
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card1 {
+    margin: 1rem;
+    padding: 5px;
+    background-color: #ADD8E6;
+    border-radius: 20px;
+    width: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card__card1 {
+    padding: 30px 100px;
+}
+
+.card2 {
+    margin: 1rem;
+    padding: 5px;
+    background-color: #008CBA;
+    border-radius: 20px;
+    width: max-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card__card2 {
+    padding: 30px 100px;
+}
+
+.card3 {
+    margin: 1rem;
+    padding: 5px;
+    background-color: #89CFF0;
+    border-radius: 20px;
+    width: max-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card__card3 {
+    padding: 30px 100px;
+}
+
+/* Buttons */
+button {
+    font-size: 1.25rem;
+    border-radius: 0rem;
+    padding: 0.5rem 1rem;
+    margin: 0rem 0rem 0rem 1rem;
+    border: none;
+}
+
+.button--add {
+    background-color: white;
+    color: black;
+    border: solid black;
+    transition-duration: 0.3s;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button--add:hover {
+    background-color: black;
+    color: white;
+}
+
+.button--cancel {
+    background-color: #008CBA;
+    color: white;
+    border-radius: 0.7rem;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.button--cancel:hover {
+    opacity: 1;
+}
+
+.button--continue {
+    display: inline-block;
+    border-radius: 0.5rem;
+    background-color: rgb(5, 202, 5);
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 200px;
+}
+
+.button--continue span {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button--continue:hover span {
+    padding-right: 25px;
+
+}
+
+.button--continue span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button--continue:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* Images */
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    margin: 1rem;
+}
+
+.image {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+.overlay {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    border: 2px #008CBA solid;
+}
+
+table {
+    width: 60%;
+    margin-left: 20%;
+}
+
+table caption {
+    font-size: larger;
+}
+
+table td,
+table th {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #008CBA;
+    color: white;
+}
