@@ -15,7 +15,7 @@ Link to **[demo](https://pslib-cz.github.io/2022l4web-css-typographic-library-Vi
 4. [Types of text](#Types-of-text)
 5. [Table](#Table)
 6. [Buttons](#Buttons)
-8. [Alerts](#Alerts)
+7. [Images](#Images)
 9. [Buttons](#Buttons)
 10. [Pictures](#Pictures)
 11. [Code blocks](#Code-blocks)
@@ -73,5 +73,13 @@ I have preset three types of buttons with hover effects that interact:
 - Use class `class="button--add"` for hoverable button button.
 - Use class `class="button--cancel"` for disable look  button.
 - Use class `class="button--continue"` for arrow-animated button.
-
-
+## Images
+Use this HTML style to properly apply the CSS preset.
+```html
+<div class="container">
+    <img src="img/yourimage.jpg" alt="yourimage" class="image">
+    <div class="overlay">
+     <div class="text">yourimage</div>
+    </div>
+</div>
+```
