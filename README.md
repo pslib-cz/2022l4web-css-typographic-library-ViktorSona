@@ -18,8 +18,7 @@ Link to **[demo](https://pslib-cz.github.io/2022l4web-css-typographic-library-Vi
 7. [Images](#Images)
 9. [Buttons](#Buttons)
 10. [Pictures](#Pictures)
-11. [Code blocks](#Code-blocks)
-12. [Sections](#sections)
+11. [Cards](#Cards)
 14. [End](#the-end)
 
 ## Implementation
@@ -88,7 +87,7 @@ Use this HTML style to properly apply the CSS preset:
 ## Cards
 Card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
 
-Use this HTML style to properly apply the CSS preset:¨
+Use this HTML style to properly apply the CSS preset:
 ```html
 <section class="cards">
     <div class="card1">
