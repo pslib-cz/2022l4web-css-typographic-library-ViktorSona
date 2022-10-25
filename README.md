@@ -25,7 +25,7 @@ Link to **[demo](https://pslib-cz.github.io/2022l4web-css-typographic-library-Vi
 14. [End](#the-end)
 
 ## Implementation
-1. Download maestro.css in **[docs/typography](https://github.com/pslib-cz/2022l4web-css-typographic-library-ViktorSona)** folder
+1. Download maestro.css in **[docs/typography](https://github.com/pslib-cz/2022l4web-css-typographic-library-ViktorSona/blob/master/docs/typography.css)** folder
 2. Add file inside your project folder
 3. Link typography.css file to `<head>` in every HTML page using syntax:
 ```html
