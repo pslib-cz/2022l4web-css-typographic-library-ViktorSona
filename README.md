@@ -88,7 +88,8 @@ Use this HTML style to properly apply the CSS preset:
 ## Cards
 Card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
 
-Use this HTML style to properly apply the CSS preset:
+Use this HTML style to properly apply the CSS preset:¨
+```html
 <section class="cards">
     <div class="card1">
         <div class="card__card1">
@@ -106,3 +107,4 @@ Use this HTML style to properly apply the CSS preset:
         </div>
     </div>
 </section>
+```
