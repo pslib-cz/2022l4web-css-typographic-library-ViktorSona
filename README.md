@@ -10,7 +10,7 @@ Link to **[demo](https://pslib-cz.github.io/2022l4web-css-typographic-library-Vi
 
 ## Navigator
 1. [Implementation](#Implementation)
-2. [Typography](#Typography)
+2. [Font](#Font)
 3. [Headings](#Headings)
 4. [Types of text](#Types-of-text)
 5. [Cards](#Cards)
@@ -22,7 +22,7 @@ Link to **[demo](https://pslib-cz.github.io/2022l4web-css-typographic-library-Vi
 ## Implementation
 1. Copy CSS **[docs/typography](https://github.com/pslib-cz/2022l4web-css-typographic-library-ViktorSona/blob/master/docs/typography.css)**
 2. Paste to your CSS file
-## Typography
+## Font
 The font used throughout the web is called Kanit.
 ## Headings
 You can use headings from `<h1>` to `<h5>`. Font sizes are: 
