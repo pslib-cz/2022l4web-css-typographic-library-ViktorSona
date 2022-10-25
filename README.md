@@ -13,9 +13,7 @@ Link to **[demo](https://pslib-cz.github.io/2022l4web-css-typographic-library-Vi
 2. [Typography](#Typography)
 3. [Headings](#Headings)
 4. [Types of text](#Types-of-text)
-6. [Lists](#Lists)
-    1. [Unordered list](#Unordered-list)
-    2. [Ordered list](#Ordered-list)
+5. [Table](#Table)
 7. [Table](#Table)
 8. [Alerts](#Alerts)
 9. [Buttons](#Buttons)
@@ -37,6 +35,7 @@ You can use headings from `<h1>` to `<h5>`. Font sizes are:
 * 30px for `<h4>`
 * 28px for `<h5>`
 ## Types of text
+You can use these tags to change the font:
 - `strong` for **Important text**<
 - `i` for *Italic text*</i>
 - `em` for <em>Emphasized text</em>
@@ -46,7 +45,29 @@ You can use headings from `<h1>` to `<h5>`. Font sizes are:
 - `ins` for <ins>Inserted text</ins>
 - `sub` for <sub>Subscript text</sub>
 - `sup` for <sup>Superscript tex</sup>
-
+## Table
+The <caption> tag specifies the name of the table. We write everything that makes up the table into <tbody>. The <tr> tag defines a row in a table. In the <tr> tag, we write the <th> and <td> tags that make up the cells and write their contents into them. The <th> tag is for the cell heading. The <td> tag is for classic cells.
+```html
+<table>
+    <caption>Premier League Top Scorers 2022/2023</caption>
+        <tbody>
+            <tr>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+            </tr>
+            <tr>
+                <td>Item</td>
+                <td>Item</td>
+                <td>Item</td>
+            </tr>
+            <tr>
+                <td>Item</td>
+                <td>Item</td>
+                <td>Item</td>
+            </tr>
+        </tbody>
+```
 
 
 
