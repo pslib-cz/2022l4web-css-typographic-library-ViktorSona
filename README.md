@@ -16,8 +16,7 @@ Link to **[demo](https://pslib-cz.github.io/2022l4web-css-typographic-library-Vi
 5. [Cards](#Cards)
 6. [Buttons](#Buttons)
 7. [Images](#Images)
-8. [Table](#Table)
-9. [End](#End)
+8. [Table](#Tables)
 
 ## Implementation
 1. Copy CSS **[docs/typography](https://github.com/pslib-cz/2022l4web-css-typographic-library-ViktorSona/blob/master/docs/typography.css)**
@@ -82,7 +81,7 @@ Use this HTML style to properly apply the CSS preset:
     </div>
 </div>
 ```
-## Table
+## Tables
 The `<caption>` tag specifies the name of the table. We write everything that makes up the table into `<tbody>`. The `<tr>` tag defines a row in a table. In the `<tr>` tag, we write the `<th>` and `<td>` tags that make up the cells and write their contents into them. The `<th>` tag is for the cell heading. The `<td>` tag is for classic cells. The lines are alternately white and gray, the brackets are made in accordance with the design of the entire page. I hope you like it. :) 
 ```html
 <table>
