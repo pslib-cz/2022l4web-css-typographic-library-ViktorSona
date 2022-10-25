@@ -82,6 +82,8 @@ Use this HTML style to properly apply the CSS preset:
 </div>
 ```
 ## Tables
+A table in CSS is used to apply the various styling properties to the HTML Table elements to arrange the data in rows and columns, or possibly in a more complex structure in properly organized manner. Tables are widely used in communication, research, and data analysis. The table-layout property in CSS can be utilized to display the layout of the table. This property is basically used to sets the algorithm  that is used to layout table cells, rows, and columns.
+
 The `<caption>` tag specifies the name of the table. We write everything that makes up the table into `<tbody>`. The `<tr>` tag defines a row in a table. In the `<tr>` tag, we write the `<th>` and `<td>` tags that make up the cells and write their contents into them. The `<th>` tag is for the cell heading. The `<td>` tag is for classic cells. The lines are alternately white and gray, the brackets are made in accordance with the design of the entire page. I hope you like it. :) 
 ```html
 <table>
