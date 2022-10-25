@@ -69,17 +69,40 @@ The `<caption>` tag specifies the name of the table. We write everything that ma
         </tbody>
 ```
 ## Buttons
+CSS buttons refer to styled HTML buttons that developers customize to match their website designs. You can manipulate the colors, text sizes, padding, and even change styling properties when buttons enter different states.
+
 I have preset three types of buttons with hover effects that interact:
 - Use class `class="button--add"` for hoverable button button.
 - Use class `class="button--cancel"` for disable look  button.
 - Use class `class="button--continue"` for arrow-animated button.
 ## Images
-Use this HTML style to properly apply the CSS preset.
+Use this HTML style to properly apply the CSS preset:
 ```html
 <div class="container">
-    <img src="img/yourimage.jpg" alt="yourimage" class="image">
+    <img src="img/image.jpg" alt="image" class="image">
     <div class="overlay">
-     <div class="text">yourimage</div>
+     <div class="text">image</div>
     </div>
 </div>
 ```
+## Cards
+Card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
+
+Use this HTML style to properly apply the CSS preset:
+<section class="cards">
+    <div class="card1">
+        <div class="card__card1">
+            <h5>text</h5>
+        </div>
+    </div>
+    <div class="card2">
+        <div class="card__card2">
+            <h5>text</h5>
+        </div>
+    </div>
+    <div class="card3">
+        <div class="card__card3">
+            <h5>text</h5>
+        </div>
+    </div>
+</section>
